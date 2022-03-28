@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.basic.scope.SingletonTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-27T23:30:08" hostname="Seokhos-MacBook-Pro.local" time="0.353">
+  <properties/>
+  <testcase name="singletonBeanFind()" classname="hello.basic.scope.SingletonTest" time="0.353"/>
+  <system-out><![CDATA[08:30:08.881 [Test worker] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2250b9f2
+08:30:08.903 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+08:30:08.936 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+08:30:08.939 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+08:30:08.940 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+08:30:08.941 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+08:30:08.953 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'singletonTest.SingletonBean'
+singletonBean1 = hello.basic.scope.SingletonTest$SingletonBean@117e0fe5
+singletonBean2 = hello.basic.scope.SingletonTest$SingletonBean@117e0fe5
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
